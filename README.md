@@ -15,3 +15,10 @@ If you need fullscale scanning, tools like nmap already do that better.
 - Outputs only hosts with open ports found
 
 Built for readability and learning, not stealth or mass scanning.
+
+## Usage
+
+Basic scan:
+
+```bash
+python scanner.py 192.168.1.0/24
